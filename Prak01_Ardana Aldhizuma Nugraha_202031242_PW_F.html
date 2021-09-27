@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pemrograman WEB</title>
+    </head>
+    <body>
+        <h1>Form HTML</h1>
+        <form>
+        <p>
+            Name: 
+            <input type="text"></p>
+        <p>
+            Gender: 
+            <input type="radio" name="Gender">Man
+            <input type="radio" name="Gender">Woman
+        </p>
+        
+        <p>Address: <input type="text"></p>
+        <p>
+            Country:
+            <select name="country">
+                <option value="1">Indonesia</option>
+                <option value="2">India</option>
+                <option value="3">Switzterland</option>
+            </select>
+        </p>
+        <p>
+            Email: 
+            <input type="text">
+        <p>
+            Photo:
+            <input type="text">
+            <button style="display:inlineblock; width:80px; height:22px;" 
+            onclick="document.getElementById('getFile').click()">Browse..</button>
+            <input type="file" id="getFile" style="display:none">
+        </p>
+        <p>
+            Comment:
+            <textarea cols="50" rows="10"></textarea>
+            <input type="submit" value="Submit">
+        </p>
+        </form>
+    </body>
+</html>
