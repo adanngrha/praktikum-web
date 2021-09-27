@@ -1,3 +1,3 @@
 # Praktikum Web
 
-## Berisi Tugas-tugas Kelas Pemrograman Web
+## Berisi Tugas-Tugas Kelas Pemrograman Web
